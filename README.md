@@ -60,7 +60,7 @@ Simply chose another theme and then delete the entire `MoreWaita` folder from ei
 8. Click `Open`.
 9. Follow the same procedure to revert the icon. Just click `Revert` instead of selecting a new icon in step 7.
 
-![change_folder_icon](demo.png)
+![change_folder_icon](assets/demo.png)
 
 # Troubleshooting
 
@@ -106,6 +106,6 @@ and mention the icon name referenced in your app's `.desktop` file.
 # The Icons
 _These screenshots show icons currently in git, versioned releases may be behind_
 
-![apps](preview/apps.png)
-![mimes](preview/mimes.png)
-![places](preview/places.png)
+![apps](assets/apps.png)
+![mimes](assets/mimes.png)
+![places](assets/places.png)
