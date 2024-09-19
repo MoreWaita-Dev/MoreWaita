@@ -5,6 +5,10 @@ for popular apps to fit with Gnome Shell's original icons.
 The purpose of this theme is to provide third-party apps
 with a consistent look and feel in Gnome Shell.
 
+<p align="center">
+    <img src="assets/morewaita-prev.png"/>
+</p>
+
 **NB**: This theme requires Adwaita in order to work.
 
 ## Installation
