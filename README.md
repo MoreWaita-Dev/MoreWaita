@@ -59,7 +59,8 @@ Simply chose another theme and then delete the entire `MoreWaita` folder from ei
 7. Select the icon you wish to use.
 8. Click `Open`.
 9. Follow the same procedure to revert the icon. Just click `Revert` instead of selecting a new icon in step 7.
-![change_folder_icon](https://github.com/MoreWaita-Dev/MoreWaita/assets/15643750/05e88cbc-3c77-4e1b-a8bd-3e15b84972fa)
+
+![change_folder_icon](demo.png)
 
 # Troubleshooting
 
@@ -104,6 +105,7 @@ and mention the icon name referenced in your app's `.desktop` file.
 
 # The Icons
 _These screenshots show icons currently in git, versioned releases may be behind_
-![apps](https://github.com/MoreWaita-Dev/MoreWaita/assets/15643750/b5800d54-51d0-448e-93b1-b7b6bd49584e)
-![mimes](https://github.com/MoreWaita-Dev/MoreWaita/assets/15643750/5dd03a63-2682-46dd-b13d-19f74c7cca07)
-![places](https://github.com/MoreWaita-Dev/MoreWaita/assets/15643750/81c65814-6746-49c5-a486-6da6a84d0ab4)
+
+![apps](apps.png)
+![mimes](mimes.png)
+![places](places.png)
