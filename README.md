@@ -18,22 +18,22 @@ sudo ./install.sh
 
 ### Arch Linux
 
-[AUR package (versioned)](https://aur.archlinux.org/packages/morewaita)
+The package is in [AUR (versioned)](https://aur.archlinux.org/packages/morewaita) 
+[AUR (git)](https://aur.archlinux.org/packages/morewaita-git). You can use `yay` or whatever AUR package helper.
 
-[AUR package (git)](https://aur.archlinux.org/packages/morewaita-git)
-
-[Julian's repository](https://gitlab.com/julianfairfax/package-repo#how-to-add-repository-for-arch-based-linux-distributions)
+```bash
+yay -S morewaita
+# or yay -S morewaita-git
+```
 
 ### Fedora Linux
 
-[COPR repository](https://copr.fedorainfracloud.org/coprs/dusansimic/themes)
+The package can be found in [COPR repository](https://copr.fedorainfracloud.org/coprs/dusansimic/themes).
 
-1. Enable COPR repository `dnf copr enable dusansimic/themes`
-2. Install the package `dnf install morewaita-icon-theme`
-
-### Ubuntu/Debian Linux
-
-[Julian's repository](https://gitlab.com/julianfairfax/package-repo#how-to-add-repository-for-debian-based-linux-distributions)
+```
+dnf copr enable dusansimic/themes
+sudo dnf install morewaita-icon-theme
+```
 
 ## Activation
 
