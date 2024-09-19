@@ -33,7 +33,7 @@ for file in files:
     file_: str = join(DIR, file)
     # filter out regular files
     if isfile(join(file_)) and not islink(file_):
-        regular_files.append("    '{}',\n".format(file))
+        regular_files.append(f"    '{file}',\n")
     # filter out link files
     elif isfile(join(file_)) and islink(file):
         link_files.append(file)
@@ -65,14 +65,11 @@ new_link_lines = []
 for file, links in reversed(sorted_groups):
     # print a comment line indicating a
     # group of links (file that they link to)
-    new_link_lines.append("    "{}": [\n".format(file))
+    new_link_lines.append(f"    '{file}': [\n")
     for link in links:
         # print a line for each link file
-        new_link_lines.append("        "{}",\n".format(link))
+        new_link_lines.append(f"        '{link}',\n")
     new_link_lines.append("    ],\n")
-
-reg_lines = None
-link_lines = None
 
 # match lines in regular and link segments
 r = re.compile(
@@ -86,11 +83,12 @@ r = re.compile(
     re.MULTILINE
 )
 
-with open(join(args.readdir, "meson.build"), "r") as f:
+MB_DIR: str = join(args.readdir, "meson.build")
+with open(MB_DIR, "r", encoding="utf-8") as f:
     match_lines = r.match("".join(f.readlines()))
 
 if match_lines:
-    with open(join(args.readdir, "meson.build"), "w") as f:
+    with open(MB_DIR, "w", encoding="utf-8") as f:
         f.write(match_lines.group(1))
         f.write("".join(regular_files))
         f.write(match_lines.group(3))
