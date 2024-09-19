@@ -1,14 +1,13 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-is_user_root ()
-{
-		[ "$(id -u)" -eq 0 ]
+is_user_root () {
+    [ "$(id -u)" -eq 0 ]
 }
 
 if is_user_root; then
-		THEMEDIR=/usr/share/icons/MoreWaita/
+    THEMEDIR=/usr/share/icons/MoreWaita/
 else
-		THEMEDIR=$HOME/.local/share/icons/MoreWaita/
+    THEMEDIR=$HOME/.local/share/icons/MoreWaita/
 fi
 
 mkdir -p $THEMEDIR
