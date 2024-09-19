@@ -106,6 +106,6 @@ and mention the icon name referenced in your app's `.desktop` file.
 # The Icons
 _These screenshots show icons currently in git, versioned releases may be behind_
 
-![apps](apps.png)
-![mimes](mimes.png)
-![places](places.png)
+![apps](preview/apps.png)
+![mimes](preview/mimes.png)
+![places](preview/places.png)
