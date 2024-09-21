@@ -1,4 +1,4 @@
-# MoreWaita
+# MoreWaita Extended 47
 
 An Adwaita styled companion icon theme with extra icons
 for popular apps to fit with Gnome Shell's original icons.
