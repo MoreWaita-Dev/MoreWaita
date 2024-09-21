@@ -58,6 +58,18 @@ theme or run the following command:
 gsettings set org.gnome.desktop.interface icon-theme 'MoreWaita'
 ```
 
+## Update
+
+If you are using the `git` version, you can sync with the latest, currently the branch `MoreWaita-Dev:47`,
+using:
+
+```bash
+cd /usr/share/icons/MoreWaita
+# or $HOME/.local/share/icons/MoreWaita
+sudo git fetch
+# only git fetch for local installation
+```
+
 ## Uninstall
 
 Simply chose another theme and then delete the entire
