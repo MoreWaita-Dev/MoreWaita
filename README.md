@@ -22,7 +22,7 @@ with a consistent look and feel in Gnome Shell.
 
 ### Manual installation
 
-```
+```bash
 git clone https://github.com/MoreWaita-Dev/MoreWaita
 cd MoreWaita
 sudo ./install.sh
@@ -44,7 +44,7 @@ yay -S morewaita
 
 The package can be found in [COPR repository](https://copr.fedorainfracloud.org/coprs/dusansimic/themes).
 
-```
+```bash
 dnf copr enable dusansimic/themes
 sudo dnf install morewaita-icon-theme
 ```
@@ -54,7 +54,7 @@ sudo dnf install morewaita-icon-theme
 Either use the `Tweaks` app to choose and activate the icon
 theme or run the following command:
 
-```
+```bash
 gsettings set org.gnome.desktop.interface icon-theme 'MoreWaita'
 ```
 
@@ -86,11 +86,12 @@ the `places` subfolder (typically `/usr/share/icons/MoreWaita/places/scalable/`)
 
 If the theme doesn't apply try the following command:
 
-### For system-wide installation
-`sudo gtk-update-icon-cache -f -t /usr/share/icons/MoreWaita && xdg-desktop-menu forceupdate`
-
-### For local installation
-`gtk-update-icon-cache -f -t ~/.local/share/icons/MoreWaita && xdg-desktop-menu forceupdate`
+```bash
+# local installation
+gtk-update-icon-cache -f -t /usr/share/icons/MoreWaita && xdg-desktop-menu forceupdate
+# for system wide
+# sudo gtk-update-icon-cache -f -t /usr/share/icons/MoreWaita && xdg-desktop-menu forceupdate
+```
 
 #### Some apps don't get themed
 
@@ -110,43 +111,44 @@ it in an issue providing the icon name from your system.
 
 # Credits
 
-This theme is built mostly upon the work of Gnome's Adwaita
-designers and Gnome Circle apps' developers, as well as
-Papirus theme designers,  with a touch of tinkering from
-[@somepaulo](https://github.com/somepaulo), [@dusansimic](https://github.com/dusansimic),
-[@julianfairfax](https://github.com/julianfairfax) and others
-here and there. The theme provides icons for the most popular
-apps people really do install and use, and also covers the most
-frequently installed dependency GUI apps that almost nobody
-uses (like Avahi browsers, QT Designer, Software token, etc.).
-
-The goal of MoreWaita is to add to Adwaita, not modify it, and
-to do roughly what Breeze does for KDE. This theme does not
-override any Adwaita icons, nor any Gnome Circle apps icons,
-nor icons that generally fit into the Adwaita paradigm (like
-Transmission GTK). Currently, this theme is way less all-inclusive
-than many others, but the aim is to be on par with Papirus
-some day. However, this is (mostly) a one-man hobby effort,
-albeit with some greatly appreciated help, so suggestions,
-requests, PRs and contributions are very welcome. In the
-meantime, I'll focus on adding icons that the community is requesting.
-
-For most icons, especially branded ones, the general idea is
-to stay as close as possible to the original icons – to the
-point of using them in full – and giving them the distinct
-Adwaita 'perspective' and general flatness. One thing this
-theme deviates from is the Gnome colour palette in brand icons
-– MoreWaita keeps the brand colours.
-
-This theme is built and tested against vanilla Gnome on Arch
-Linux. If an icon is in the theme, but is not applying to your
-app, please open an issue and mention the icon name referenced
-in your app's `.desktop` file.
+> This theme is built mostly upon the work of Gnome's Adwaita
+> designers and Gnome Circle apps' developers, as well as
+> Papirus theme designers,  with a touch of tinkering from
+> [@somepaulo](https://github.com/somepaulo),
+> [@dusansimic](https://github.com/dusansimic),
+> [@julianfairfax](https://github.com/julianfairfax) and others
+> here and there. The theme provides icons for the most popular
+> apps people really do install and use, and also covers the most
+> frequently installed dependency GUI apps that almost nobody
+> uses (like Avahi browsers, QT Designer, Software token, etc.).
+>
+> The goal of MoreWaita is to add to Adwaita, not modify it, and
+> to do roughly what Breeze does for KDE. This theme does not
+> override any Adwaita icons, nor any Gnome Circle apps icons,
+> nor icons that generally fit into the Adwaita paradigm (like
+> Transmission GTK). Currently, this theme is way less all-inclusive
+> than many others, but the aim is to be on par with Papirus
+> some day. However, this is (mostly) a one-man hobby effort,
+> albeit with some greatly appreciated help, so suggestions,
+> requests, PRs and contributions are very welcome. In the
+> meantime, I'll focus on adding icons that the community is requesting.
+>
+> For most icons, especially branded ones, the general idea is
+> to stay as close as possible to the original icons – to the
+> point of using them in full – and giving them the distinct
+> Adwaita 'perspective' and general flatness. One thing this
+> theme deviates from is the Gnome colour palette in brand icons
+> – MoreWaita keeps the brand colours.
+>
+> This theme is built and tested against vanilla Gnome on Arch
+> Linux. If an icon is in the theme, but is not applying to your
+> app, please open an issue and mention the icon name referenced
+> in your app's `.desktop` file.
 
 ## Donations
 
 Please consider donating to the original authors of the
-project, @somepaulo:
+project, [@somepaulo](https://github.com/somepaulo):
 
 - [ko-fi](https://ko-fi.com/somepaulo)
 - [PayPal](http://paypal.me/pfino/5)
