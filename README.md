@@ -67,18 +67,14 @@ Simply chose another theme and then delete the entire
 # Using custom folder icons
 
 1. Open Files (Nautilus).
-2. Find the folder you wish to change the icon for.
+2. Find the folder you wish to change the icon.
 3. Right click on the folder.
 4. Click on `Properties`.
 5. Click on the folder image.
 6. Navigate to the MoreWaita installation folder and into
-the `places` subfolder (typically `/usr/share/icons/MoreWaita/places/scalable/`).
+the `places` subfolder (`/places/scalable/`).
 7. Select the icon you wish to use.
 8. Click `Open`.
-9. Follow the same procedure to revert the icon. Just click
-`Revert` instead of selecting a new icon in step 7.
-
-![change_folder_icon](assets/demo.png)
 
 # Troubleshooting
 
