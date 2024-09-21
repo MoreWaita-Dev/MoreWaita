@@ -451,12 +451,16 @@ link_files = {
     ],
     'application-x-bitwig-studio.svg': [
         'application-bitwig-clip.svg',
-        'application-bitwig-device.svg',
         'application-x-bitwig-clip.svg',
-        'application-x-bitwig-device.svg',
         'application-x-com.bitwig-clip.BitwigStudio.svg',
+        'application-bitwig-device.svg',
+        'application-x-bitwig-device.svg',
         'application-x-com.bitwig-device.BitwigStudio.svg',
         'application-x-com.bitwig.BitwigStudio.svg',
+        'application-bitwig-project.svg',
+        'application-x-bitwig-project.svg',
+        'application-bitwig-template.svg',
+        'application-x-bitwig-template.svg',
     ],
     'application-xml.svg': [
         'application-atom+xml.svg',
