@@ -11,8 +11,8 @@ else
 fi
 
 mkdir -p $THEMEDIR
-shopt -s extglob
-cp -avu "$(pwd -P)"/!(*.build|*.sh|*.py|*.md|.git|.github|.gitignore|_dev) $THEMEDIR
+shopt -s extglo
+cp -avu "$(pwd -P)"/!(*.build|*.sh|*.py|*.md|.github|.gitignore|_dev) $THEMEDIR
 shopt -u extglob
 find $THEMEDIR -name '*.build' -type f -delete
 gtk-update-icon-cache -f -t $THEMEDIR && xdg-desktop-menu forceupdate
