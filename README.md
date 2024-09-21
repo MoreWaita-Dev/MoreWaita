@@ -9,7 +9,12 @@ with a consistent look and feel in Gnome Shell.
     <img src="assets/morewaita-prev.png"/>
 </p>
 
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues) [![license](https://img.shields.io/github/license/MoreWaita-Dev/MoreWaita)](https://img.shields.io/github/license/MoreWaita-Dev/MoreWaita) ![GitHub Repo stars](https://img.shields.io/github/stars/MoreWaita-Dev/MoreWaita?style=flat) ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/MoreWaita-Dev/MoreWaita) ![GitHub Tag](https://img.shields.io/github/v/tag/MoreWaita-Dev/MoreWaita)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+[![license](https://img.shields.io/github/license/MoreWaita-Dev/MoreWaita)](https://img.shields.io/github/license/MoreWaita-Dev/MoreWaita)
+![GitHub Repo stars](https://img.shields.io/github/stars/MoreWaita-Dev/MoreWaita?style=flat)
+![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/MoreWaita-Dev/MoreWaita)
+![GitHub Tag](https://img.shields.io/github/v/tag/MoreWaita-Dev/MoreWaita)
+![Discord](https://img.shields.io/discord/1286339345812291624)
 
 **NB**: This theme requires Adwaita in order to work.
 
