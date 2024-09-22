@@ -17,21 +17,19 @@ philosophy to extend GNOME's Shell's original icon set.
 ![GitHub Tag](https://img.shields.io/github/v/tag/NeoWaita/NeoWaita)
 ![Discord](https://img.shields.io/discord/1286339345812291624)
 
-**NB**: This theme requires Adwaita in order to work.
-
 ## Installation
+
+Currently, the icon theme does not have any package. Hence, it requires
+to be installed manually via `git`:
 
 ```bash
 git clone https://github.com/NeoWaita/NeoWaita
 cd NeoWaita
-sudo ./install.sh
-# or ./install.sh
+sudo ./install.sh # for system-wide installation
+# or ./install.sh for local installation
 ```
 
-## Activation
-
-Either use the `Tweaks` app to choose and activate the icon
-theme or run the following command:
+To apply the icon theme, you can use GNOME Tweaks or use `gsettings`:
 
 ```bash
 gsettings set org.gnome.desktop.interface icon-theme 'NeoWaita'
@@ -39,8 +37,8 @@ gsettings set org.gnome.desktop.interface icon-theme 'NeoWaita'
 
 ## Update
 
-If you are using the `git` version, you can sync with the latest, currently the branch `NeoWaita:47`,
-using:
+If you are using the `git` version, you can sync with the latest,
+currently the branch `NeoWaita:47`, using:
 
 ```bash
 cd /usr/share/icons/NeoWaita
@@ -51,9 +49,10 @@ sudo git fetch
 
 ## Uninstall
 
-Simply chose another theme and then delete the entire
-`NeoWaita` folder from either `/usr/share/icons/` or
-`~/.local/share/icons/` depending on your installation choice above.
+```bash
+sudo rm -rf /usr/share/icons/NeoWaita # for system wide
+# rm -rf $HOME/.local/share/icons/NeoWaita
+```
 
 # Using custom folder icons
 
@@ -69,7 +68,7 @@ the `places` subfolder (`/places/scalable/`).
 
 # Troubleshooting
 
-### Theme doesn't apply
+## Theme doesn't apply
 
 If the theme doesn't apply try the following command:
 
@@ -80,7 +79,7 @@ gtk-update-icon-cache -f -t /usr/share/icons/NeoWaita && xdg-desktop-menu forceu
 # sudo gtk-update-icon-cache -f -t /usr/share/icons/NeoWaita && xdg-desktop-menu forceupdate
 ```
 
-#### Some apps don't get themed
+## Some apps don't get themed
 
 If the theme applies, but a particular app doesn't get
 themed (and its icon is in NeoWaita), check its respective
@@ -90,7 +89,6 @@ there or no icon set at all. This can differ between distros.
 If you happen to have such apps, you'll need to copy their
 `.desktop` files into `~/.local/share/applications` and
 modify them there providing the correct icon name.
-Alternatively, use a menu editor like `MenuLibre` or `Alacarte`.
 
 If your app's `.desktop` file references an icon name not
 present in NeoWaita's `apps/scalable` folder, please report
@@ -136,8 +134,6 @@ which provides its foundation.
 > Linux. If an icon is in the theme, but is not applying to your
 > app, please open an issue and mention the icon name referenced
 > in your app's `.desktop` file.
-
-## Donations
 
 Please consider donating to the original authors of the
 project, [@somepaulo](https://github.com/somepaulo):
