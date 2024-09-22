@@ -35,6 +35,22 @@ To apply the icon theme, you can use GNOME Tweaks or use `gsettings`:
 gsettings set org.gnome.desktop.interface icon-theme 'NeoWaita'
 ```
 
+#### AUR
+
+An AUR package (`git`) is also being maintained by 
+[@That1Calculator](https://github.com/ThatOneCalculator), which can be
+installed with any of your preferred AUR helper or by manually compiling
+the package build:
+
+```bash
+yay -S neowaita-git
+# although it can also be done manually with
+git clone https://aur.archlinux.org/neowaita-git.git
+cd neowaita-git
+makepkg -si
+sudo pacman -S neowaita-git
+```
+
 ## Update
 
 If you are using the `git` version, you can sync with the latest,
