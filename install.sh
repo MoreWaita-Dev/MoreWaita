@@ -5,9 +5,9 @@ is_user_root () {
 }
 
 if is_user_root; then
-    THEMEDIR=/usr/share/icons/MoreWaita/
+    THEMEDIR=/usr/share/icons/NeoWaita/
 else
-    THEMEDIR=$HOME/.local/share/icons/MoreWaita/
+    THEMEDIR=$HOME/.local/share/icons/NeoWaita/
 fi
 
 mkdir -p $THEMEDIR
