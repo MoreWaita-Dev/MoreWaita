@@ -11,7 +11,7 @@ else
 fi
 
 mkdir -p $THEMEDIR
-shopt -s extglo
+shopt -s extglob
 cp -avu "$(pwd -P)"/!(*.build|*.sh|*.py|*.md|.github|.gitignore|_dev) $THEMEDIR
 shopt -u extglob
 find $THEMEDIR -name '*.build' -type f -delete
