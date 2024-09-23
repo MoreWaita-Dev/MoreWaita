@@ -15,7 +15,6 @@ philosophy to extend GNOME's Shell's original icon set.
 ![GitHub Repo stars](https://img.shields.io/github/stars/NeoWaita/NeoWaita?style=flat)
 ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/NeoWaita/NeoWaita)
 ![GitHub Tag](https://img.shields.io/github/v/tag/NeoWaita/NeoWaita)
-![Discord](https://img.shields.io/discord/1286339345812291624)
 
 ## Installation
 
@@ -37,7 +36,7 @@ gsettings set org.gnome.desktop.interface icon-theme 'NeoWaita'
 
 #### AUR
 
-An AUR package (`git`) is also being maintained by 
+An AUR package (`git`) is also being maintained by
 [@That1Calculator](https://github.com/ThatOneCalculator), which can be
 installed with any of your preferred AUR helper or by manually compiling
 the package build:
