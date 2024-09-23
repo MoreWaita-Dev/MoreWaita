@@ -3,8 +3,22 @@
 A fusion of best icon themes that adhere to Adwaita's design
 philosophy to extend GNOME's Shell's original icon set.
 
-> The purpose of this theme is to provide third-party apps
-> with a consistent look and feel in Gnome Shell.
+> [!NOTE]
+> Since this is a community fork from the original repo,
+somepaulo/MoreWaita, and due to previous disputes, this fork
+had taken on a path whereas it will mature into a different
+project whilst still having the original repository as a base.
+
+#### Philosophy
+
+The purpose of this project is to combine/compile the best of
+all icons from different icon themes into a single one while
+still maintaining Adwaita and GNOME's HIG and design philosophy.
+Thereby providing third-party apps with a consistent look and
+feel; extending Adwaita's limited icon sets; replacing/providing
+an alternative and more modern/better icon than previously
+existing one; and ultimately completing/filling the deficiency
+of GNOME's icons while upholding its design philosophy.
 
 <p align="center">
     <img src="assets/neowaita-prev.png"/>
@@ -23,21 +37,17 @@ to be installed manually via `git`:
 
 ```bash
 git clone https://github.com/NeoWaita/NeoWaita
+# for bleeding edge/nightly installation
+# git clone --single-branch --branch v47 https://github.com/NeoWaita/NeoWaita
 cd NeoWaita
 sudo ./install.sh # for system-wide installation
 # or ./install.sh for local installation
 ```
 
-To apply the icon theme, you can use GNOME Tweaks or use `gsettings`:
-
-```bash
-gsettings set org.gnome.desktop.interface icon-theme 'NeoWaita'
-```
-
 #### AUR
 
-An AUR package (`git`) is also being maintained by
-[@That1Calculator](https://github.com/ThatOneCalculator), which can be
+An AUR package (`git`) submitted and maintained by
+[@That1Calculator](https://github.com/ThatOneCalculator) can be
 installed with any of your preferred AUR helper or by manually compiling
 the package build:
 
@@ -50,10 +60,18 @@ makepkg -si
 sudo pacman -S neowaita-git
 ```
 
+#### Activation
+
+To apply the icon theme, you can use GNOME Tweaks or use `gsettings`:
+
+```bash
+gsettings set org.gnome.desktop.interface icon-theme 'NeoWaita'
+```
+
 ## Update
 
 If you are using the `git` version, you can sync with the latest,
-currently the branch `NeoWaita:47`, using:
+currently `v47` `NeoWaita:47`, using:
 
 ```bash
 cd /usr/share/icons/NeoWaita
