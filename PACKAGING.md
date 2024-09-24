@@ -1,10 +1,10 @@
-# MoreWaita packaging documentation
+# NeoWaita packaging documentation
 
 This document is meant for project and distro package maintainers to ease
 their workflow by explaining how meson build definitions are prepared. If
-you'd like to contribute to MoreWaita, you are probably interested in
+you'd like to contribute to NeoWaita, you are probably interested in
 [Prepare Meson build definitions](#prepare-meson-build-definitions) section.
-If you'd like to maintain a distribution package for the MoreWaita icon pack,
+If you'd like to maintain a distribution package for the NeoWaita icon pack,
 you're probably more interested in
 [Meson build definitions usage](#meson-build-definitions-usage) section.
 
@@ -59,7 +59,7 @@ The process needs to be repeated for all changed directories.
 That way we install all regular files into a target directory and for
 all links we install them pointing to the corresponding destination file.
 
-Before each release, MoreWaita maintainers are expected to replace the
+Before each release, NeoWaita maintainers are expected to replace the
 list of regular files in each icon directory with a fresh list that's
 printed from `dump_regulars.sh` script and replace the groups of link
 files in each icon directory with a fresh list that's printed from
