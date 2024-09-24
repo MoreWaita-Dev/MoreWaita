@@ -5,15 +5,27 @@ is_user_root () {
 }
 
 if is_user_root; then
-    THEMEDIR=/usr/share/icons/MoreWaita/
+    THEMEDIR=/usr/share/icons/NeoWaita/
 else
-    THEMEDIR=$HOME/.local/share/icons/MoreWaita/
+    THEMEDIR=$HOME/.local/share/icons/NeoWaita/
+fi
+
+if [[ -d "$THEMEDIR" ]]; then
+    rm -rf $THEMEDIR
 fi
 
 mkdir -p $THEMEDIR
 shopt -s extglob
-cp -avu "$(pwd -P)"/!(*.build|*.sh|*.py|*.md|.git|.github|.gitignore|_dev) $THEMEDIR
+cp -avu "$(pwd -P)"/!(
+    "*.build"     | \
+    "*.sh"        | \
+    "*.py"        | \
+    "*.md"        | \
+    ".github"     | \
+    ".gitignore"  | \
+    "tools"         \
+) $THEMEDIR
 shopt -u extglob
 find $THEMEDIR -name '*.build' -type f -delete
-gtk-update-icon-cache -f -t $THEMEDIR && xdg-desktop-menu forceupdate
-
+gtk-update-icon-cache -f -t $THEMEDIR && \
+xdg-desktop-menu forceupdate

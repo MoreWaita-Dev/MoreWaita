@@ -77,8 +77,13 @@ regular_files = [
     'gnome-nettool.svg',
     'godot.svg',
     'goland.svg',
+    'google-agenda.svg',
     'google-chrome.svg',
+    'google-contacts.svg',
+    'google-drive.svg',
     'google-earth.svg',
+    'google-messages.svg',
+    'google-photos.svg',
     'gparted.svg',
     'gpsd-logo.svg',
     'grapejuice-roblox-player.svg',
@@ -122,16 +127,24 @@ regular_files = [
     'libreoffice-math.svg',
     'libreoffice-startcenter.svg',
     'libreoffice-writer.svg',
+    'librewolf.svg',
     'liferea.svg',
     'linguist.svg',
     'lvim.svg',
     'mailspring.svg',
+    'maple.svg',
     'mathematica.svg',
     'mattermost.svg',
     'mediainfo.svg',
     'menulibre.svg',
     'micro.svg',
     'microsoft-edge.svg',
+    'microsoft-excel.svg',
+    'microsoft-onenote.svg',
+    'microsoft-outlook.svg',
+    'microsoft-powerpoint.svg',
+    'microsoft-teams.svg',
+    'microsoft-word.svg',
     'minecraft.svg',
     'mockoon.svg',
     'monero.svg',
@@ -146,6 +159,8 @@ regular_files = [
     'nvim.svg',
     'nvtop.svg',
     'obsidian.svg',
+    'octave.svg',
+    'okular.svg',
     'one.alynx.showmethekey.svg',
     'onetagger.svg',
     'openra-cnc.svg',
@@ -207,7 +222,6 @@ regular_files = [
     'surfshark.svg',
     'syncthing-gtk.svg',
     'system-software-install.svg',
-    'teams.svg',
     'telegram.svg',
     'texstudio.svg',
     'thunderbird.svg',
@@ -225,6 +239,7 @@ regular_files = [
     'vmware-workstation.svg',
     'vscodium.svg',
     'warpinator.svg',
+    'webcord.svg',
     'webstorm.svg',
     'windscribe.svg',
     'xdvi.svg',
@@ -238,6 +253,10 @@ regular_files = [
 
 link_files = {
     # DO NOT REMOVE: Begining of link segment
+    'protonvpn-gui.svg': [
+        'com.protonvpn.www.svg',
+        'protonvpn-logo.svg',
+    ],
     'libreoffice-startcenter.svg': [
         'libreoffice-main.svg',
         'libreoffice4.2-startcenter.svg',
@@ -331,6 +350,9 @@ link_files = {
         'qtconfig-qt5.svg',
         'qtconfig-qt6.svg',
         'qtconfig.svg',
+    ],
+    'protonvpn-logo.svg': [
+        'proton-vpn-logo.svg',
     ],
     'popcorntime.svg': [
         'popcorn-time.svg',
@@ -1062,7 +1084,19 @@ link_files = {
         'com.unityhub.UnityEditor.svg',
         'unityeditor.svg',
     ],
-    'teams.svg': [
+    'microsoft-onenote.svg': [
+        'ms-onenote.svg',
+    ],
+    'microsoft-powerpoint.svg': [
+        'ms-powerpoint.svg',
+    ],
+    'microsoft-outlook.svg': [
+        'ms-outlook.svg',
+    ],
+    'microsoft-excel.svg': [
+        'ms-excel.svg',
+    ],
+    'microsoft-teams.svg': [
         'appimagekit-teams-for-linux.svg',
         'brave-cifhbcnohmdccbgoicgdjpfamggdegmo-Default.svg',
         'chrome-cifhbcnohmdccbgoicgdjpfamggdegmo-Default.svg',
@@ -1071,7 +1105,12 @@ link_files = {
         'msedge-cifhbcnohmdccbgoicgdjpfamggdegmo-Default.svg',
         'opera-cifhbcnohmdccbgoicgdjpfamggdegmo-Default.svg',
         'teams-for-linux.svg',
+        'teams.svg',
         'vivaldi-cifhbcnohmdccbgoicgdjpfamggdegmo-Default.svg',
+        'ms-teams.svg'
+    ],
+    'microsoft-word.svg': [
+        'ms-word.svg',
     ],
     'standard-notes.svg': [
         'appimagekit-standard-notes.svg',
@@ -1087,6 +1126,11 @@ link_files = {
     'obsidian.svg': [
         'appimagekit-obsidian.svg',
         'md.obsidian.Obsidian.svg',
+    ],
+    'librewolf.svg': [
+        'appimagekit-librewolf.svg',
+        'io.gitlab.LibreWolf.svg',
+        'io.gitlab.librewolf-community.svg',
     ],
     'kitty.svg': [
         'appimagekit-kitty.svg',
@@ -1201,6 +1245,23 @@ link_files = {
         'Alacritty.svg',
         'com.alacritty.Alacritty.svg',
     ],
+    'webcord.svg': [
+        'io.github.spacingbat3.webcord.svg',
+    ],
+    'mathematica.svg': [
+      'wolfram-mathematica.svg',
+    ],
+    'okular.svg': [
+        'org.kde.okular.svg',
+    ],
+    'octave.svg': [
+        'qtoctave.svg',
+        'org.octave.Octave.svg',
+
+    ],
+    'google-agenda.svg': [
+        'google-calendar.svg',
+    ]
     # DO NOT REMOVE: End of link segment
 }
 
