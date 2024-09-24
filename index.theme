@@ -1,6 +1,6 @@
 [Icon Theme]
-Name=MoreWaita
-Comment=An Adwaita styled theme with extra icons for popular apps to complement Gnome Shell's original icons.
+Name=NeoWaita
+Comment=A fusion of best icon themes that adhere to Adwaita's design philosophy to extend GNOME's Shell's original icon set.
 Inherits=Adwaita
 Example=pamac
 

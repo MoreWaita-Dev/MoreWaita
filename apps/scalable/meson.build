@@ -1089,11 +1089,6 @@ link_files = {
         'appimagekit-obsidian.svg',
         'md.obsidian.Obsidian.svg',
     ],
-    'librewolf.svg': [
-        'appimagekit-librewolf.svg',
-        'io.gitlab.LibreWolf.svg',
-        'io.gitlab.librewolf-community.svg',
-    ],
     'kitty.svg': [
         'appimagekit-kitty.svg',
     ],

@@ -217,6 +217,10 @@ regular_files = [
 
 link_files = {
     # DO NOT REMOVE: Begining of link segment
+    'protonvpn-gui-symbolic.svg': [
+        'com.protonvpn.www-symbolic.svg',
+        'protonvpn-logo-symbolic.svg',
+    ],
     'libreoffice-startcenter-symbolic.svg': [
         'libreoffice-main-symbolic.svg',
         'libreoffice4.2-startcenter-symbolic.svg',
@@ -304,6 +308,9 @@ link_files = {
         'qtconfig-qt5-symbolic.svg',
         'qtconfig-qt6-symbolic.svg',
         'qtconfig-symbolic.svg',
+    ],
+    'protonvpn-logo-symbolic.svg': [
+        'proton-vpn-logo-symbolic.svg',
     ],
     'popcorntime-symbolic.svg': [
         'popcorn-time-symbolic.svg',
