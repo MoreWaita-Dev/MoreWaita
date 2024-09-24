@@ -3,6 +3,7 @@ symbolic_places_iconsdir = join_paths(places_iconsdir, 'symbolic')
 regular_files = [
     # DO NOT REMOVE: Begining of regular segment
     'folder-backup-symbolic.svg',
+    'folder-bitwig-symbolic.svg',
     'folder-books-legacy-symbolic.svg',
     'folder-books-symbolic.svg',
     'folder-c-symbolic.svg',
@@ -19,6 +20,7 @@ regular_files = [
     'folder-godot-symbolic.svg',
     'folder-java-symbolic.svg',
     'folder-lua-symbolic.svg',
+    'folder-money-symbolic.svg',
     'folder-nextcloud-legacy-symbolic.svg',
     'folder-nextcloud-symbolic.svg',
     'folder-private-legacy-symbolic.svg',
@@ -56,6 +58,9 @@ link_files = {
     'folder-python-symbolic.svg': [
         'folder-python-legacy-symbolic.svg',
     ],
+    'folder-money-symbolic.svg': [
+        'folder-money-legacy-symbolic.svg',
+    ],
     'folder-lua-symbolic.svg': [
         'folder-lua-legacy-symbolic.svg',
     ],
@@ -82,6 +87,10 @@ link_files = {
     ],
     'folder-backup-symbolic.svg': [
         'folder-backup-legacy-symbolic.svg',
+    ],
+    'folder-bitwig-symbolic.svg': [
+        'com.bitwig.BitwigStudio.application-bitwig-project-folder-symbolic.svg',
+        'folder-bitwig-legacy-symbolic.svg',
     ],
     # DO NOT REMOVE: End of link segment
 }

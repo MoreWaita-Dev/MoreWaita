@@ -122,6 +122,7 @@ regular_files = [
     'libreoffice-math.svg',
     'libreoffice-startcenter.svg',
     'libreoffice-writer.svg',
+    'librewolf.svg',
     'liferea.svg',
     'linguist.svg',
     'lvim.svg',
