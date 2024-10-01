@@ -107,6 +107,7 @@ regular_files = [
     'libreoffice-math-symbolic.svg',
     'libreoffice-startcenter-symbolic.svg',
     'libreoffice-writer-symbolic.svg',
+    'librewolf-symbolic.svg',
     'liferea-symbolic.svg',
     'linguist-symbolic.svg',
     'lvim-symbolic.svg',
@@ -216,6 +217,10 @@ regular_files = [
 
 link_files = {
     # DO NOT REMOVE: Begining of link segment
+    'protonvpn-gui-symbolic.svg': [
+        'com.protonvpn.www-symbolic.svg',
+        'protonvpn-logo-symbolic.svg',
+    ],
     'libreoffice-startcenter-symbolic.svg': [
         'libreoffice-main-symbolic.svg',
         'libreoffice4.2-startcenter-symbolic.svg',
@@ -303,6 +308,9 @@ link_files = {
         'qtconfig-qt5-symbolic.svg',
         'qtconfig-qt6-symbolic.svg',
         'qtconfig-symbolic.svg',
+    ],
+    'protonvpn-logo-symbolic.svg': [
+        'proton-vpn-logo-symbolic.svg',
     ],
     'popcorntime-symbolic.svg': [
         'popcorn-time-symbolic.svg',
@@ -789,10 +797,6 @@ link_files = {
     'rawtherapee-symbolic.svg': [
         'com.rawtherapee.RawTherapee-symbolic.svg',
     ],
-    'protonvpn-gui-symbolic.svg': [
-        'com.protonvpn.www-symbolic.svg',
-        'protonvpn-logo-symbolic.svg',
-    ],
     'minecraft-symbolic.svg': [
         'com.mojang.Minecraft-symbolic.svg',
         'lutris_minecraft-symbolic.svg',
@@ -1033,6 +1037,11 @@ link_files = {
     'obsidian-symbolic.svg': [
         'appimagekit-obsidian-symbolic.svg',
         'md.obsidian.Obsidian-symbolic.svg',
+    ],
+    'librewolf-symbolic.svg': [
+        'appimagekit-librewolf-symbolic.svg',
+        'io.gitlab.LibreWolf-symbolic.svg',
+        'io.gitlab.librewolf-community-symbolic.svg',
     ],
     'kitty-symbolic.svg': [
         'appimagekit-kitty-symbolic.svg',
