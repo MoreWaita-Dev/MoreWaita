@@ -9,6 +9,11 @@ somepaulo/MoreWaita, and due to previous disputes, this fork
 had taken on a path whereas it will mature into a different
 project whilst still having the original repository as a base.
 
+> [!WARNING]
+> All development, MRs and issues are addressed and happens in
+> [`NeoWaita:upstream`](https://github.com/NeoWaita/NeoWaita/tree/upstream)
+> Refer to `upstream` for the bleeding edge version of NeoWaita.
+
 #### Philosophy
 
 The purpose of this project is to combine/compile the best of
