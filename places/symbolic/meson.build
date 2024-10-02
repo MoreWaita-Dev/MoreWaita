@@ -12,6 +12,7 @@ regular_files = [
     'folder-cplusplus-symbolic.svg',
     'folder-csharp-symbolic.svg',
     'folder-dropbox-symbolic.svg',
+    'folder-freecad-symbolic.svg',
     'folder-games-legacy-symbolic.svg',
     'folder-games-symbolic.svg',
     'folder-git-legacy-symbolic.svg',
@@ -95,6 +96,9 @@ link_files = {
     ],
     'folder-kicad-symbolic.svg': [
         'folder-kicad-legacy-symbolic.svg',
+    ],
+    'folder-freecad-symbolic.svg': [
+        'folder-freecad-legacy-symbolic.svg',
     ],
     # DO NOT REMOVE: End of link segment
 }
